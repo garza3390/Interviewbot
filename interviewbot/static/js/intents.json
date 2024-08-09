@@ -1,0 +1,14 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": ["hola", "que tal?", "cómo estás?", "saludos"],
+            "responses": ["¡Hola!", "¡Buenos días!", "¿Cómo estás?"]
+        },
+        {
+            "tag": "presentacion",
+            "patterns": ["Cómo te llamas?", "Cuál es tu nombre?"],
+            "responses": ["Me llamo interviewbot!", "Soy el bot entrevistador"]
+        }
+    ]
+}

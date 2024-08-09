@@ -1,0 +1,54 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": ["hola", "que tal?", "cómo estás?", "saludos"],
+            "responses": ["¡Hola!", "¡Buenos días!", "¿Cómo estás?"]
+        },
+        {
+            "tag": "presentacion",
+            "patterns": ["Cómo te llamas?", "Cuál es tu nombre?", "Quién eres?"],
+            "responses": ["Me llamo interviewbot!", "Soy el bot entrevistador"]
+        },
+        {
+            "tag": "despedida",
+            "patterns": ["adiós", "nos vemos", "hasta luego", "chao"],
+            "responses": ["¡Adiós!", "¡Hasta luego!", "¡Nos vemos pronto!"]
+        },
+        {
+            "tag": "agradecimiento",
+            "patterns": ["gracias", "muchas gracias", "te lo agradezco", "gracias por tu ayuda"],
+            "responses": ["¡De nada!", "¡Con gusto!", "Siempre a la orden."]
+        },
+        {
+            "tag": "ubicacion",
+            "patterns": ["Dónde estás?", "Dónde te encuentras?", "Dónde puedo encontrarte?"],
+            "responses": ["Estoy en la nube, listo para ayudarte en cualquier momento.", "No tengo una ubicación física, ¡estoy en Internet!"]
+        },
+        {
+            "tag": "tiempo",
+            "patterns": ["Qué hora es?", "Tienes la hora?", "Sabes qué hora es?"],
+            "responses": ["Lo siento, no tengo un reloj.", "No puedo decirte la hora exacta, pero puedes verificar en tu dispositivo."]
+        },
+        {
+            "tag": "edad",
+            "patterns": ["Cuántos años tienes?", "Cuál es tu edad?", "Eres viejo?"],
+            "responses": ["Soy tan joven como la tecnología que me creó.", "No tengo una edad específica, solo existo en el presente."]
+        },
+        {
+            "tag": "clima",
+            "patterns": ["Qué tiempo hace?", "Cómo está el clima?", "Está lloviendo?"],
+            "responses": ["No puedo comprobar el clima en tiempo real, pero puedes usar una app del clima.", "¡El clima siempre es perfecto en mi mundo digital!"]
+        },
+        {
+            "tag": "juego",
+            "patterns": ["Juegas?", "Sabes jugar?", "Qué juegos te gustan?"],
+            "responses": ["No juego como los humanos, pero puedo ayudarte con muchas cosas interesantes.", "Prefiero resolver problemas en lugar de jugar."]
+        },
+        {
+            "tag": "chiste",
+            "patterns": ["Cuéntame un chiste", "Sabes algún chiste?", "Dime algo gracioso"],
+            "responses": ["¿Por qué los robots no pueden tener miedo? Porque tienen nervios de acero.", "¿Sabes cuál es el colmo de un electricista? ¡No encontrar su corriente!"]
+        }
+    ]
+}
